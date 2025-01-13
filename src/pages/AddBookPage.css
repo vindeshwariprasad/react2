@@ -1,0 +1,71 @@
+/* Container styling */
+.add-book-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading */
+  .add-book-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input fields */
+  .input-field,
+  .textarea-field,
+  .dropdown-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus,
+  .textarea-field:focus,
+  .dropdown-field:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  /* Textarea */
+  .textarea-field {
+    min-height: 80px;
+    resize: none;
+  }
+  
+  /* Dropdown */
+  .dropdown-field {
+    background-color: black;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #357ab8;
+  }
+  
